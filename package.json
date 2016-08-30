@@ -1,0 +1,21 @@
+{
+  "name": "dext-chrome-bookmarks-plugin",
+  "version": "0.0.0",
+  "description": "Dext plugin to search Chrome bookmarks.",
+  "keywords": [
+    "dext",
+    "dext-plugin",
+    "chrome",
+    "bookmarks",
+    "favorites"
+  ],
+  "main": "index.js",
+  "author": "Vu Tran <vu@vu-tran.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "string_score": "^0.1.22"
+  }
+}
