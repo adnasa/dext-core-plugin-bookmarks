@@ -1,4 +1,4 @@
-# dext-hackernews-plugin
+# dext-chrome-bookmarks-plugin
 
 > [Dext](https://github.com/vutran/dext) plugin to access your Chrome bookmarks.
 
