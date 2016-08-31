@@ -2,7 +2,7 @@
 
 > [Dext](https://github.com/vutran/dext) plugin to search bookmarks. (Currently supports Chrome only)
 
-![](screenshot.png?raw=true)
+![Search through your bookmarks](screenshot.png?raw=true)
 
 ## Usage
 
