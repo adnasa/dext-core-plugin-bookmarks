@@ -95,7 +95,6 @@ const toItems = bookmarks => {
 };
 
 module.exports = {
-  keyword: 'b',
   action: 'openurl',
   output: q => new Promise(resolve => {
     const defaultProfilePath = getDefaultProfile();

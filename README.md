@@ -1,20 +1,12 @@
-# dext-chrome-bookmarks-plugin
+# dext-core-plugin-bookmarks
 
-> [Dext](https://github.com/vutran/dext) plugin to access your Chrome bookmarks.
+> [Dext](https://github.com/vutran/dext) plugin to search bookmarks. (Currently supports Chrome only)
 
 ![](screenshot.png?raw=true)
 
-## Install
-
-```bash
-$ dpm install dext-chrome-bookmarks-plugin
-```
-
-*Requires [Dext](https://github.com/vutran/dext).*
-
 ## Usage
 
-In Dext, type `b`, then one of the following options below.
+In Dext, start typing anything.
 
 ## Related
 

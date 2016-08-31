@@ -1,7 +1,7 @@
 {
-  "name": "dext-chrome-bookmarks-plugin",
+  "name": "dext-core-plugin-bookmarks",
   "version": "0.0.0",
-  "description": "Dext plugin to search Chrome bookmarks.",
+  "description": "Dext plugin to search bookmarks.",
   "keywords": [
     "dext",
     "dext-plugin",
