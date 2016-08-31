@@ -96,7 +96,7 @@ const toItems = bookmarks => {
 
 module.exports = {
   action: 'openurl',
-  output: q => new Promise(resolve => {
+  execute: q => new Promise(resolve => {
     const defaultProfilePath = getDefaultProfile();
     fs.readdir(defaultProfilePath, (err, files) => {
       if (!err) {
