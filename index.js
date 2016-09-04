@@ -32,7 +32,7 @@ const getBookmarkChildren = children => {
       const grandChildren = getBookmarkChildren(child.children);
       const marked = grandChildren.map(x => Object.assign({}, x, {
         folder: child.name,
-      }))
+      }));
       bookmarks = bookmarks.concat(marked);
     } else {
       bookmarks.push(child);
