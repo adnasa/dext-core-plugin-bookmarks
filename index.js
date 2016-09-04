@@ -30,10 +30,10 @@ const getBookmarkChildren = children => {
   children.forEach(child => {
     if (child.type === 'folder') {
       const grandChildren = getBookmarkChildren(child.children);
-      const marked = grandChildren.map(x => Object.assign({}, x, {
+      const folded = grandChildren.map(x => Object.assign({}, x, {
         folder: child.name,
       }));
-      bookmarks = bookmarks.concat(marked);
+      bookmarks = bookmarks.concat(folded);
     } else {
       bookmarks.push(child);
     }
