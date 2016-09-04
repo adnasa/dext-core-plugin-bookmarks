@@ -30,7 +30,10 @@ const getBookmarkChildren = children => {
   children.forEach(child => {
     if (child.type === 'folder') {
       const grandChildren = getBookmarkChildren(child.children);
-      bookmarks = bookmarks.concat(grandChildren);
+      const marked = grandChildren.map(x => Object.assign({}, x, {
+        folder: child.name,
+      }))
+      bookmarks = bookmarks.concat(marked);
     } else {
       bookmarks.push(child);
     }
@@ -86,7 +89,7 @@ const toItems = bookmarks => {
   return bookmarks
     .map(i => ({
       title: i.name,
-      subtitle: i.url,
+      subtitle: `(${i.folder ? i.folder : 'misc'}) - ${i.url}`,
       arg: i.url,
       icon: {
         path: getFavicon(i.url),
